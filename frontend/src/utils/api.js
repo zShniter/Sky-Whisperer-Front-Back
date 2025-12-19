@@ -16,7 +16,7 @@ const weatherInstance = axios.create({
   timeout: 10000,
 });
 
-const API_KEY = '02576881221a7bbea9fcb6514bd39123'; // Your actual key
+const API_KEY = '02576881221a7bbea9fcb6514bd39123'; 
 
 // 🌤️ WEATHER API FUNCTIONS (unchanged logic, better error handling)
 export const fetchCurrentWeather = async (city) => {
